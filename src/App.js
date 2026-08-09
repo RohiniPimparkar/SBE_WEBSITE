@@ -36,7 +36,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
  <GlobalStyle/>
-   <BrowserRouter>
+  <BrowserRouter basename="/SBE_WEBSITE">
    <Header/>
    <Routes>
     <Route path="/" element = {<Home/>}/>
