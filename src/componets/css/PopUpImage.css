@@ -1,0 +1,113 @@
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+}
+
+.view{
+    position: relative;
+    min-height: 100vh;
+    background: #dbddf1;
+}
+
+.view .image-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.view .image-container .image{
+    height:250px;
+    width:350px;
+    border:10px solid #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.view .image-container .image img{
+    height:250px;
+    width:350px;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.view .image-container .image:hover img{
+    transform: scale(1.1);
+
+}
+
+.view .popup-image{
+    position :fixed;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,.9);
+    height: 100%;
+    width: 100%;
+    z-index:100;
+
+}
+.view .popup-image .cross{
+    position :fixed;
+    top:0;
+    right:10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color:#fff;
+    cursor: pointer;
+    z-index:100;
+
+}
+
+.view .popup-image img{
+    position: absolute;
+  top:50%; left:50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius:5px ;
+    width: 750px;
+    object-fit:cover;
+
+
+}
+
+.videosection{
+	background-color: #dbddf1;
+	align-items: center;
+    
+
+}
+
+.view .client-image-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.view .client-image-container .image{
+ 
+    border:10px solid #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+    overflow: hidden;
+    cursor: pointer;
+    background-color: white;
+
+}
+
+.view .client-image-container .image img{
+    height:150px;
+    width:250px;
+    position: center;
+    transition: .2s linear;
+}
+
+.view .client-image-container .image:hover img{
+    transform: scale(0.8);
+
+}
+
+

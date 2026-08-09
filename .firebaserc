@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "swagbox-6d3bb",
+    "swagbox": "swagbox-6d3bb"
+  },
+  "targets": {},
+  "etags": {}
+}

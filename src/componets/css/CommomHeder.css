@@ -1,0 +1,297 @@
+/********** Template CSS **********/
+:root {
+    --primary: #ff0000;
+    --light: #F0FBFC;
+    --dark: #181d38;
+}
+
+
+
+/*** Section Title ***/
+.section-title {
+    /* color: #ff0000; */
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    
+}
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 80px);
+    height: 2px;
+    top: 4px;
+    left: -40px;
+    background: var(--primary);
+    z-index: -1;
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: calc(100% + 120px);
+    height: 2px;
+    bottom: 5px;
+    left: -60px;
+    background: var(--primary);
+    z-index: -1;
+}
+
+.section-title.text-start::before {
+    width: calc(100% + 40px);
+    left: 0;
+}
+
+.section-title.text-start::after {
+    width: calc(100% + 60px);
+    left: 0;
+}
+
+.aboutcontent{
+    font-size: 22px;
+    padding: 0 10% 1% 10%;
+    text-align: center;
+    color:#666666;
+
+}
+
+.card1{
+    background-color:  #7EC452;
+}
+.card2{
+    background-color: #FFDA23;
+}
+
+.card3{
+    background-color: #7BB0E7;
+}
+
+.headercontent{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.paracontent{
+    color:white;
+    font-size: 15px;
+
+}
+
+.serviceimg{
+    border-radius: 10000px;
+    height: 200px;
+    width: 300px;
+    padding: 30px;
+    transform:scale(1) ;
+
+}
+.serviceimg:hover{
+    transform:scale(1.4) ;
+
+}
+
+.viewbtn{
+    color: white;
+    background-color: #ff0000;
+    border-color: #8b0000;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 3px;
+
+}
+
+
+.viewbtn:hover{
+    background-color: transparent;
+    border-color: #8b0000;
+    border:3px solid ;
+    color:#ff0000;
+  
+}
+
+
+.serviceheadercontent{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.serviceparacontent{
+    color:#666666;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.lastsection{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../Images/event1/image4.jpg");
+    background-attachment: scroll;
+    background-position: top left;
+    background-size: cover;
+}
+
+.lastsectioncontain{
+    color: white;
+   font-size: 30px;
+   text-align: center;
+   padding: 10% 10% 1% 10%;
+   
+}
+
+.contactbut{
+    color: white;
+    background-color: #ff0000;
+    border-color: #8b0000;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 3px;
+
+}
+
+
+.contactbut:hover{
+    background-color: transparent;
+    border-color: #8b0000;
+    border:3px solid ;
+    color:#ff0000;
+  
+}
+.approachcontent{
+    /* padding :3% 2% 0 2% */
+    padding: 0 10% 1% 10%;
+    text-align: center;
+    color:#666666;
+}
+
+.approachcontent span{
+    font-size: 32px;
+    color: #ff0000;
+    font-weight: bold;
+    line-height: 1.3;
+
+}
+.approachcontent h3{
+  color: #6D6D6D;
+  font-size: 20px;  
+}
+
+/* .approachcontent p{
+   
+    font-size: 30px;  
+    padding-top: 2%;
+  
+  } */
+
+.approachimg{
+    height: 400px;
+    background:url(../../Images/approach.jpg) top center no-repeat scroll; vertical-align:top; padding:0; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+
+
+.rowarea{
+    background-color: #ff0000;
+    color:white;
+    height: 150px;
+    width: 100%;
+    font-size: 30px;
+   
+}
+
+.rowarea p{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.squarediv{
+    /* position: absolute;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+    top: -39px;
+    color: #ff0000; */
+    background-color: #ff0000;
+    width: 50px;
+    height: 50px;
+    margin-left: 50%;
+    margin-top: -10px;
+    transform: translateX(-20%) rotate(45deg); 
+}
+
+
+
+.approachcard1{
+    background-image: url(../../Images/back1.jpg);
+    vertical-align: top;
+    background-size: cover;
+    padding: 30px 10px 30px 20px;
+}
+
+
+.approachcard2{
+background: url(../../Images/back5.jpg) center;
+
+ background-size: cover;
+    vertical-align: top;
+    padding: 30px 10px 30px 10px;
+}
+
+.approachcard3{
+    background: url(../../Images/back6.jpg) top center;
+ 
+    vertical-align: top;
+    background-size: cover;
+    
+    padding: 30px 20px 30px 10px;
+}
+
+.spancontent{
+    text-align: center;
+    font-size: 30px;
+    color: #ff0000;
+    font-weight: bold;
+    padding-top: 3%;
+}
+
+.contentapp{
+
+    font-size: 25px;  
+    padding-top: 2%;
+}
+
+.listcontent{
+    background-color: #edebf4
+}
+
+.spanval{
+    padding: 0 5% 0 7%;
+    font-size: 22px;
+
+}
+
+
+.spanval span{
+    padding-left: 5%;
+}
+
+.blankdiv{
+    height: 60px;
+    width: 100%;
+}
+
+

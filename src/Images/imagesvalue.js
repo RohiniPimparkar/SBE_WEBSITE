@@ -1,0 +1,29 @@
+export const Media = [
+    {type:'image', url: require('../Images/event1/img4.jpg')},
+    {type:'image', url: require('../Images/event1/Img1.jpg')},
+    {type:'image', url: require('../Images/event1/img2.jpg')},
+    {type:'image', url: require('../Images/event1/img3.jpg')},
+    {type:'image', url: require('../Images/event1/img5.jpg')},
+    {type:'image', url: require('../Images/event1/img6.jpg')},
+    {type:'image', url: require('../Images/event1/IMG_3310.jpg')},
+    {type:'image', url: require('../Images/event1/IMG_3341.jpg')},
+    {type:'image', url: require('../Images/event1/IMG_3349.jpg')},
+    {type:'image', url: require('../Images/event1/IMG_3361.jpg')},
+    {type:'image', url: require('../Images/event1/IMG_3369.jpg')},
+    {type:'image', url: require('../Images/event1/IMG_3392.jpg')},
+    {type:'image', url: require('../Images/event1/IMG_3464.jpg')},
+    {type:'image', url: require('../Images/event1/IMG_3788.jpg')},
+    {type:'image', url: require('../Images/event1/IMG_3823.jpg')},
+    {type:'image', url: require('../Images/event1/IMG_3942.jpg')},
+    {type:'image', url: require('../Images/event1/IMG_3947.jpg')},
+    {type:'image', url: require('../Images/event1/IMG_3966.jpg')},
+	 {type:'image', url: require('../Images/event1/IMG_3973.jpg')},
+    {type:'image', url: require('../Images/event1/IMG_3781.jpg')},
+    {type:'image', url: require('../Images/event1/image4.jpg')},
+]
+
+export const Video = [
+
+    {type:'video', url: require('../videos/video.mp4')},
+
+]

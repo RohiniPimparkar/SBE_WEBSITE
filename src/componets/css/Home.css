@@ -1,0 +1,157 @@
+.main-value{
+ font-size: 40px;
+ color: white;
+
+}
+.main-value2{
+    font-size: 20px;
+    color: white;
+
+   }
+
+.main-contain-value{
+    display: flex;
+    font-size: 40px;
+    text-align:center;
+    color: #fff
+
+}
+
+.small-main-contain{
+    display: flex;
+    flex-direction: column;
+    font-size:20px;
+    text-align:"center";
+    color: "#fff"
+
+}
+
+.button1{
+
+    color: white;
+    padding: 15px;
+    /* background-color: #ff0000; */
+    background-color:#ff0000;
+    border-color: #8b0000;
+   
+    font-size: 15px;
+
+}
+
+.finalbtn{
+    margin-left: 40%;
+    color:#fff;
+    background-color: transparent;
+    border-color: white;
+  
+    font-size: 20px;
+}
+
+.viewbtnhome{
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.viewbtnhome:hover{
+    color: white;
+    background-color:#c20000;
+    
+    border-color: #8b0000;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.finalbtn2{
+    margin-left: 40%;
+
+    border-color: #8b0000;
+    margin-top: 0;
+    color:black;
+    font-size: 20px;
+}
+.finalbtn2:hover{
+    margin-left: 40%;
+    background-color:#c20000;
+    border-color: #8b0000;
+    font-size: 20px;
+}
+
+
+.button1:hover{
+    background-color: transparent;
+    border-color: white;
+    border:3px solid ;
+  
+}
+
+.button2{
+
+    color: white;
+    padding: 15px;
+    background-color: transparent;
+    border-color: white;
+    border:3px solid ;
+    margin-left: 20px;
+    font-size: 15px;
+
+}
+
+.button2:hover{
+    /* background-color: #ff0000; */
+    background-color:#ff0000;
+    border-color: #8b0000;
+  
+}
+
+.footerval{
+    font-size: 15px;
+
+}
+.socialicon{
+    float: right; 
+    color:#fff;
+}
+
+.socialicon span + span {
+    margin-left: 20px;
+  }
+
+  .instasocial{
+    background: transparent;
+    color:#fff;
+  }
+
+  .fbsocial{
+    background: transparent;
+    color:#fff;
+  }
+
+  .lnsocial{
+    background: transporant;
+    color:#fff;
+  }
+
+.landingcontainer{
+    width: 100vw;
+    align-items: center;
+
+}
+
+.bgimg{
+    height: 100%;
+    background:url(../../Images/seviceimg.jpg) top center no-repeat scroll; vertical-align:top; padding:0; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+  
+}
+
+
+
+
+
