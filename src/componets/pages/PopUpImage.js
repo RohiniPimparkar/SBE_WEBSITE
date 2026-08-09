@@ -25,7 +25,6 @@ import event23 from '../../Images/event1/image4.jpg';
 import '../css/PopUpImage.css';
 
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import video1 from '../../videos/event_video2.mp4';
 
 const PopUpImage = () => {
    const[file, setFile] = useState(null);
@@ -121,23 +120,6 @@ const PopUpImage = () => {
             
          </div>
 
-         <div className='content1 text-center animate__animated animate__tada'>VIDEOS
-         </div>
-         <div className='row videosection'>
-        
-         {/* <div class="col-md-12">
-         <div className='embded-responsive embded-responsive-16by9'>
-        
-                <iframe className = 'embded-responsive-item' 
-                src={video1}
-                 title="event video" 
-                 allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true">
-
-                </iframe>
-          
-            </div>
-               </div> */}
-         </div>
 
 <div className='popup-image' style={{display: file ? 'block': 'none'}}>
     <span className='cross animate__animated animate__rotateIn' onClick={()=>setFile(null)}>&times;</span>

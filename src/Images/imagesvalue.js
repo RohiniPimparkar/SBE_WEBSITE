@@ -21,9 +21,3 @@ export const Media = [
     {type:'image', url: require('../Images/event1/IMG_3781.jpg')},
     {type:'image', url: require('../Images/event1/image4.jpg')},
 ]
-
-export const Video = [
-
-    {type:'video', url: require('../videos/video.mp4')},
-
-]

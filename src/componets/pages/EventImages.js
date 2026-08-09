@@ -24,7 +24,6 @@ import event22 from '../../Images/event1/IMG_3781.jpg';
 import event23 from '../../Images/event1/image4.jpg';
 import '../css/ImageViwer.css';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import video1 from '../../videos/video.mp4';
 
 
 const EventImages = (props) => {
@@ -106,27 +105,7 @@ const EventImages = (props) => {
             </div>
             
          </div>
-         <div className='content1 text-center animate__animated animate__tada'>VIDEOS
-         </div>
-          
       </section>
-     
-      <div className='row videosection d-flex justify-content-center'>
-
-           
-            <div className='embded-responsive embded-responsive-16by9'>
-                <iframe className = 'embded-responsive-item' 
-                src={video1}
-                 title="event video" 
-                 allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true">
-
-                </iframe>
-        
-            </div>
- 
-         
-</div>
-      
 </>  
   )
 }
